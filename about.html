@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <!-- <link rel="icon" href="indian2.png" type="image/png"> -->
+    <!-- <link rel="stylesheet" href="about.css"> -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/about.css">
+    
+</head>
+<body>
+    <body>
+        <nav>
+            <label class="logo"> Quiz </label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                 <li><a class="active" onclick="myFunction()">darkmode</a></li> 
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                      <a href="book.html">Book</a>
+                      <a href="science.html">Science</a>
+                      <a href="sports.html">Sports</a>
+                      <a href="maths.html">Maths</a>
+                      <a href="music.html">Music</a>
+                    </div>
+                  </div>
+            </ul>
+        </nav>
+        <center>
+        <div class="container">
+            
+            <div class="card">
+                <!-- <div class="img"></div> -->
+                <img class="img" src="profile-pic.jpg">
+                <div class="content">
+                    
+                    <h2>About Us</h2>
+                    <h3>It is a Quiz Application created by :'Pragati Dosad' of Lovely Professional university under a given project.
+                        It is a simple quiz application in which random questions will be generated and user can also select the category from 
+                        which he or she wants to play the quiz, this is done with the help of api to fetch random questions .The project has been
+                        successfully completed with the help of html, css , javascript and API .
+        </div>
+        </center>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+</body>
+</html>
